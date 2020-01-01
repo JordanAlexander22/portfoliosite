@@ -1307,7 +1307,7 @@ input, select, textarea {
 	}
 
 	body{
-		background: #778899
+		background: url('images/backgroundcss.gif') 
 	}
 		/* background-image: url("images/overlay.png"), url("images/bg.jpg"); */
 		/* background: #778899 */
@@ -1824,7 +1824,7 @@ input, select, textarea {
 				display: block;
 				position: absolute;
 				background: #222222;
-				color: #ffffff;
+				color: white;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
@@ -1853,6 +1853,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				opacity: 1.0;
+				color: greenyellow
 			}
 
 				#nav a:hover span {
@@ -2064,9 +2065,9 @@ input, select, textarea {
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 					}
 					.icon {
-						/* text-decoration: none; */
-						/* position: relative; */
-						/* text-decoration: none; */
+						 text-decoration: none;
+						 position: relative;
+						 text-decoration: none;
 					}
 						#main > .panel.intro .pic .arrow:before {
 							position: relative;
@@ -2151,14 +2152,14 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #000000;
+		color: white;
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
 	}
 
 		#footer a {
-			color:#000000;
+			color:white;
 			color: #000000(255, 255, 255, 0.65);
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
@@ -2167,7 +2168,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: white;
+				color: greenyellow;
 			}
 
 		#footer .copyright {
