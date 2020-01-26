@@ -1307,7 +1307,8 @@ input, select, textarea {
 	}
 
 	body{
-		background: url('images/backgroundcss.gif') 
+		background: url('images/backgroundcss.gif');
+	
 	}
 		/* background-image: url("images/overlay.png"), url("images/bg.jpg"); */
 		/* background: #778899 */
@@ -1943,6 +1944,11 @@ input, select, textarea {
 				padding: 1em 0;
 				max-width: 100%;
 			}
+ 
+			#nav a {
+				display: flex;
+				justify-content: space-evenly;
+			} 
 
 		}
 
