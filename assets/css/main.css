@@ -327,8 +327,11 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				text-align: center
 			}
-
+ 			.row span {
+			color: black !important;
+			}
 				.row > * {
 					box-sizing: border-box;
 				}
